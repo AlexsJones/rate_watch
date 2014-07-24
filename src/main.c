@@ -45,7 +45,7 @@ int is_work_over(int sh,int sm,int hours,time_t *current_time, struct tm *curren
 
 	int eh = sh + hours;
 	int em = 0;
-	if(current_time_now->tm_hour <= eh && sm != 0) {	
+	if(current_time_now->tm_hour <= eh && current_time_now->tm_min != 0) {	
 		return 0;
 	}
 	return 1;
