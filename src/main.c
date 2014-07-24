@@ -42,7 +42,10 @@ float calculate_already_earnt(int h, int m, int sh, int sm,float eps) {
 }
 int is_work_over(int sh,int sm,int hours,time_t *current_time, struct tm *current_time_now) {
 	current_time_now = localtime(current_time);	
-	if ((((sh + hours) - current_time_now->tm_hour) > 0) && current_time_now->tm_min != 0){
+
+	int eh = sh + hours;
+	int em = 0;
+	if(current_time_now->tm_hour <= eh && sm != 0) {	
 		return 0;
 	}
 	return 1;
