@@ -3,7 +3,7 @@ rate_watch
 
 A tool for contractors to calculate how much they've already earnt (For those days you just need a bit of inspiration)
 
-See it in action: http://showterm.io/4dd30ac2904037e514392
+See it in action: http://showterm.io/efe03a63d52d50d8c1d24
 
 Installation
 ============
@@ -33,9 +33,17 @@ $>rate_watch -h 9 -m 0 -r 100 -d 8
 ```
 
 Example output:
+
 Updates once a second
 ```
 $> You've earnt £50.0151 
+```
+
+Working over your hours: 
+
+In the emergency where you forget you've worked over your hours
+```
+You've earnt £2520.833740 [ALERT - WORKING TOO HARD (Possibly not getting paid)]
 ```
 
 Known issues & future improvements
