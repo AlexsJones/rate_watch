@@ -97,7 +97,7 @@ int main(int argc, char **argv) {
 	float base_earning = calculate_already_earnt(hour,minute,START_HOUR,START_MINUTE,eps);
 
 	float current_earning = base_earning;
-	while(!is_work_over(START_HOUR,START_MINUTE,DURATION,&current_time,current_time_now)) {
+	while(1){	
 		current_earning += eps;
 		fflush(stdout);
 		printf("You've Earnt %c[%d;%dm%s%f%c[0m\r",0x1b,TERMCOL,2+30,currency,current_earning,0x1B);
