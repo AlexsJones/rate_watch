@@ -10,12 +10,12 @@ Installation
 
 Either build it or just install the prebuild binary
 
-##Install prebuilt binary [currently built for  Mach-O 64-bit executable x86_64] 
+####Install prebuilt binary [currently built for  Mach-O 64-bit executable x86_64] 
 ```
 	sudo ./install_binary.sh
 ```
 
-##Build it yourself
+####Build it yourself
 
 Requires : cmake, os-x/linux,gcc
 ```
