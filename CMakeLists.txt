@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+set(CMAKE_INSTALL_PREFIX /usr/local)
+project(rate_watch)
+file(GLOB SRC "src/*.c")
+add_executable(rate_watch ${SRC})
+install(TARGETS rate_watch DESTINATION ${CMAKE_INSTALL_PREFIX}/bin)
