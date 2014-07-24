@@ -8,7 +8,7 @@ See it in action: http://showterm.io/4dd30ac2904037e514392
 Installation
 ============
 
-- Install prebuilt binaries
+- Install prebuilt binary [currently built for  Mach-O 64-bit executable x86_64] 
 ```
 	sudo ./install_binary.sh
 ```
