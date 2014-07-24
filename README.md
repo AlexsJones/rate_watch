@@ -37,3 +37,9 @@ Updates once a second
 ```
 $> You've earnt £50.0151 
 ```
+
+Known issues & future improvements
+==================================
+
+Unless you are extremely lucky; lunch breaks are not usually paid for.
+This actually doesnt effect the overall average but it would be better if the ticket stopped at lunch time - Just to remind yourself to go enjoy that hour of unpaid respite.
