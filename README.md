@@ -1,6 +1,9 @@
 rate_watch
 =========
 
+![alt text](http://i.imgur.com/QGtbsO6.png?1 "example")
+
+
 A tool for contractors to calculate how much they've already earnt (For those days you just need a bit of inspiration)
 
 See it in action: http://showterm.io/efe03a63d52d50d8c1d24
